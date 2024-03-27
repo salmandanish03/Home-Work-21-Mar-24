@@ -1,42 +1,34 @@
+// 0321- 3249779 hunnan
+
 let email: string = "salmandanish03@gmail.com";
-let password:string = "Sd1984"
+let pass: string = "03453079489";
 
-if (email === "salmandanish03@gmail.com" && password === "sd1984"){
-    console.log("You have successfully logged in");
-}
-else{
-    console.log("Your provided password is incorrect please try again");
-}
-
-// Grading system coding
-
-let percentage: number = 61
-if (percentage >= 80 && percentage <= 89.99) {
-    console.log ("Your Grade is A+");
-} 
-else if(percentage >= 70 && percentage <= 79.99) {
-    console.log ("You Grade is A");
+if (email == "salmandanish03@gmail.com" && pass == "03453079489") {
+  console.log("Successfully Logged In");
+} else {
+  console.log("Invalid Creds");
 }
 
-else console.log ("You are just pass");
+// home work
+// password lenth minium should be 6 characters (if not match print else )
+// whether home work
+// calculator home work
 
-// Weather (a)
+// Grading System
+let percentage = 59;
 
-let raining = true;
-if (raining = true){
-    console.log ("you should wear a raincoat");
+if (percentage >= 90) {
+  console.log("A+ Grade");
+
+} else if (percentage >= 80 && percentage <= 89.99) {
+  console.log("A Grade");
+
+} else if (percentage >= 70 && percentage <= 79.99) {
+  console.log("B Grade");
+
+} else if (percentage >= 60 && percentage <= 69.99) {
+  console.log("C Grade");
+  
+} else {
+  console.log("You are Fail GHADEY ULLU PAGAL");
 }
-else ("you should wear a sunGlass");
-
-
-// Weather (b)
-
-let Weather : string = "Thundersdom";
-if (Weather = "Cloudy"){
-    console.log("A person should wear a rainCoat");
-}
-else if (Weather === "Cloudy"){
-    console.log("A person should wear a light jacket");
-}
-else console.log("A person should wear a sunGlasses");
-
